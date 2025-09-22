@@ -66,3 +66,14 @@ $RECYCLE.BIN/
 
 # Exclude .NET assemblies from source
 *.dll
+
+
+### Misc ###
+# Ignore output files
+*.xlsx
+*.csv
+*.log
+
+# Ignore secrets/config
+secrets.json
+credentials.ps1
